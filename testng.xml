@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="TwitterAPITest">
+
+		<!-- <groups>
+			<run>
+				<include name="smoke" />
+			</run>
+		</groups> -->
+		
+		
+
+		<classes>
+			<class name="com.twitterapi.functionality.CreateTweetTest" />
+			<class name="com.twitterapi.functionality.LatestTweetsTest" />
+			<class name="com.twitterapi.functionality.ReTweetTest" />
+			<class name="com.twitterapi.functionality.TrendsByLocationTest" />
+			<class name="com.twitterapi.functionality.SendDirectMessageTest" />
+			<class name="com.twitterapi.functionality.FriendListTest" />
+		</classes>
+	</test> <!-- TwitterAPITest -->
+</suite> <!-- Suite -->

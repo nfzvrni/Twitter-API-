@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="5475" started-at="2020-02-19T22:12:26Z" finished-at="2020-02-19T22:12:32Z">
+    <groups>
+      <group name="regression">
+        <method signature="FriendListTest.getFollowersList()[pri:0, instance:com.twitterapi.functionality.FriendListTest@57a3af25]" name="getFollowersList" class="com.twitterapi.functionality.FriendListTest"/>
+        <method signature="TrendsByLocationTest.getTrendsByLoc()[pri:0, instance:com.twitterapi.functionality.TrendsByLocationTest@77847718]" name="getTrendsByLoc" class="com.twitterapi.functionality.TrendsByLocationTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="CreateTweetTest.createTweet()[pri:0, instance:com.twitterapi.functionality.CreateTweetTest@10e31a9a]" name="createTweet" class="com.twitterapi.functionality.CreateTweetTest"/>
+        <method signature="SendDirectMessageTest.sendDirectMessage()[pri:0, instance:com.twitterapi.functionality.SendDirectMessageTest@7f3b84b8]" name="sendDirectMessage" class="com.twitterapi.functionality.SendDirectMessageTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="TwitterAPITest" duration-ms="5475" started-at="2020-02-19T22:12:26Z" finished-at="2020-02-19T22:12:32Z">
+      <class name="com.twitterapi.functionality.FriendListTest">
+        <test-method status="PASS" signature="loadUrlAndAuthenticate()[pri:0, instance:com.twitterapi.functionality.FriendListTest@57a3af25]" name="loadUrlAndAuthenticate" is-config="true" duration-ms="1" started-at="2020-02-19T22:12:32Z" finished-at="2020-02-19T22:12:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadUrlAndAuthenticate -->
+        <test-method status="PASS" signature="getFollowersList()[pri:0, instance:com.twitterapi.functionality.FriendListTest@57a3af25]" name="getFollowersList" duration-ms="398" started-at="2020-02-19T22:12:32Z" finished-at="2020-02-19T22:12:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFollowersList -->
+      </class> <!-- com.twitterapi.functionality.FriendListTest -->
+      <class name="com.twitterapi.functionality.LatestTweetsTest">
+        <test-method status="PASS" signature="loadUrlAndAuthenticate()[pri:0, instance:com.twitterapi.functionality.LatestTweetsTest@131774fe]" name="loadUrlAndAuthenticate" is-config="true" duration-ms="1" started-at="2020-02-19T22:12:30Z" finished-at="2020-02-19T22:12:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadUrlAndAuthenticate -->
+        <test-method status="PASS" signature="getLatestTweets()[pri:0, instance:com.twitterapi.functionality.LatestTweetsTest@131774fe]" name="getLatestTweets" duration-ms="667" started-at="2020-02-19T22:12:30Z" finished-at="2020-02-19T22:12:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLatestTweets -->
+      </class> <!-- com.twitterapi.functionality.LatestTweetsTest -->
+      <class name="com.twitterapi.functionality.SendDirectMessageTest">
+        <test-method status="PASS" signature="loadUrlAndAuthenticate()[pri:0, instance:com.twitterapi.functionality.SendDirectMessageTest@7f3b84b8]" name="loadUrlAndAuthenticate" is-config="true" duration-ms="0" started-at="2020-02-19T22:12:31Z" finished-at="2020-02-19T22:12:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadUrlAndAuthenticate -->
+        <test-method status="PASS" signature="sendDirectMessage()[pri:0, instance:com.twitterapi.functionality.SendDirectMessageTest@7f3b84b8]" name="sendDirectMessage" duration-ms="363" started-at="2020-02-19T22:12:31Z" finished-at="2020-02-19T22:12:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendDirectMessage -->
+      </class> <!-- com.twitterapi.functionality.SendDirectMessageTest -->
+      <class name="com.twitterapi.functionality.CreateTweetTest">
+        <test-method status="PASS" signature="loadUrlAndAuthenticate()[pri:0, instance:com.twitterapi.functionality.CreateTweetTest@10e31a9a]" name="loadUrlAndAuthenticate" is-config="true" duration-ms="383" started-at="2020-02-19T22:12:26Z" finished-at="2020-02-19T22:12:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadUrlAndAuthenticate -->
+        <test-method status="PASS" signature="createTweet()[pri:0, instance:com.twitterapi.functionality.CreateTweetTest@10e31a9a]" name="createTweet" duration-ms="2986" started-at="2020-02-19T22:12:27Z" finished-at="2020-02-19T22:12:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTweet -->
+      </class> <!-- com.twitterapi.functionality.CreateTweetTest -->
+      <class name="com.twitterapi.functionality.ReTweetTest">
+        <test-method status="PASS" signature="loadUrlAndAuthenticate()[pri:0, instance:com.twitterapi.functionality.ReTweetTest@158d2680]" name="loadUrlAndAuthenticate" is-config="true" duration-ms="0" started-at="2020-02-19T22:12:31Z" finished-at="2020-02-19T22:12:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadUrlAndAuthenticate -->
+        <test-method status="PASS" signature="reTweet()[pri:0, instance:com.twitterapi.functionality.ReTweetTest@158d2680]" name="reTweet" duration-ms="309" started-at="2020-02-19T22:12:31Z" finished-at="2020-02-19T22:12:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reTweet -->
+      </class> <!-- com.twitterapi.functionality.ReTweetTest -->
+      <class name="com.twitterapi.functionality.TrendsByLocationTest">
+        <test-method status="PASS" signature="getTrendsByLoc()[pri:0, instance:com.twitterapi.functionality.TrendsByLocationTest@77847718]" name="getTrendsByLoc" duration-ms="335" started-at="2020-02-19T22:12:31Z" finished-at="2020-02-19T22:12:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTrendsByLoc -->
+        <test-method status="PASS" signature="loadUrlAndAuthenticate()[pri:0, instance:com.twitterapi.functionality.TrendsByLocationTest@77847718]" name="loadUrlAndAuthenticate" is-config="true" duration-ms="0" started-at="2020-02-19T22:12:31Z" finished-at="2020-02-19T22:12:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadUrlAndAuthenticate -->
+      </class> <!-- com.twitterapi.functionality.TrendsByLocationTest -->
+    </test> <!-- TwitterAPITest -->
+  </suite> <!-- Suite -->
+</testng-results>

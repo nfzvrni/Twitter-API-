@@ -1,0 +1,135 @@
+18:09:18.150 [main] INFO  com.twitterapi.base.BaseLoader - ================================================================
+18:09:18.153 [main] INFO  com.twitterapi.base.BaseLoader - Now Executing :com.twitterapi.base.BaseLoader
+18:09:21.432 [main] INFO  com.twitterapi.base.BaseLoader - Created this tweet: This is an automated tweet, Created at 9th minute.
+18:09:21.436 [main] INFO  com.twitterapi.base.BaseLoader - ================================================================
+18:09:21.436 [main] INFO  com.twitterapi.base.BaseLoader - Now Executing :com.twitterapi.base.BaseLoader
+18:09:22.754 [main] INFO  com.twitterapi.base.BaseLoader - Here are the latest 5 tweets.
+18:09:22.761 [main] INFO  com.twitterapi.base.BaseLoader - LatestTweet 1:This is an automated tweet, Created at 9th minute.
+18:09:22.761 [main] INFO  com.twitterapi.base.BaseLoader - LatestTweet 2:This is an automated tweet, Created at 8th minute.
+18:09:22.761 [main] INFO  com.twitterapi.base.BaseLoader - LatestTweet 3:This is an automated tweet, Created at 4th minute.
+18:09:22.762 [main] INFO  com.twitterapi.base.BaseLoader - LatestTweet 4:This is an automated tweet, Created at 3th minute.
+18:09:22.762 [main] INFO  com.twitterapi.base.BaseLoader - LatestTweet 5:This is an automated tweet, Created at 49th minute.
+18:09:22.763 [main] INFO  com.twitterapi.base.BaseLoader - ================================================================
+18:09:22.763 [main] INFO  com.twitterapi.base.BaseLoader - Now Executing :com.twitterapi.base.BaseLoader
+18:09:24.021 [main] INFO  com.twitterapi.base.BaseLoader - Re-Tweeted this tweet: null
+18:09:24.023 [main] INFO  com.twitterapi.base.BaseLoader - ================================================================
+18:09:24.023 [main] INFO  com.twitterapi.base.BaseLoader - Now Executing :com.twitterapi.base.BaseLoader
+18:09:25.287 [main] INFO  com.twitterapi.base.BaseLoader - Here are the 36 tweets by location
+18:09:25.287 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 1 by location: #ElectionCommission
+18:09:25.287 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 2 by location: #SuperDeluxe
+18:09:25.287 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 3 by location: #NainaDiBandook
+18:09:25.287 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 4 by location: #DemandForSonyPIXOnTataSky
+18:09:25.287 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 5 by location: #WWESSD
+18:09:25.287 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 6 by location: Rajasthan and Telangana
+18:09:25.287 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 7 by location: CEC OP Rawat
+18:09:25.288 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 8 by location: Phase 1
+18:09:25.288 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 9 by location: Survivor Speaks Out
+18:09:25.288 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 10 by location: Akhilesh Yadav
+18:09:25.288 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 11 by location: Koffee with Karan
+18:09:25.288 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 12 by location: Kela Moth
+18:09:25.288 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 13 by location: Malaysia
+18:09:25.288 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 14 by location: #RahulGandhiInJabalpur
+18:09:25.288 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 15 by location: #FearfreeTelanganaElections
+18:09:25.288 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 16 by location: #PenivitiVideoPromo
+18:09:25.288 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 17 by location: #OhhSaayali
+18:09:25.288 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 18 by location: #IAmHere
+18:09:25.288 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 19 by location: #KauvaParty
+18:09:25.288 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 20 by location: #MaqsadAzmat
+18:09:25.289 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 21 by location: #VikasBahl
+18:09:25.289 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 22 by location: #MeTooIndia
+18:09:25.289 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 23 by location: #AAP_का_RWA_संवाद
+18:09:25.289 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 24 by location: #ChetanBhagat
+18:09:25.289 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 25 by location: #96ThanksGivingMeet
+18:09:25.289 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 26 by location: #AishwaryaRaiBachchan
+18:09:25.289 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 27 by location: #KuldeepYadav
+18:09:25.289 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 28 by location: #ChaySam
+18:09:25.290 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 29 by location: #RatsasanThrillerHit
+18:09:25.290 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 30 by location: #ProKabaddi
+18:09:25.290 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 31 by location: #SarvamThaalamayam
+18:09:25.290 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 32 by location: #SivangiPilla
+18:09:25.290 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 33 by location: #Mohanlal
+18:09:25.290 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 34 by location: #PyConIndia
+18:09:25.290 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 35 by location: #7MillionMAHESHIANS
+18:09:25.290 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 36 by location: #SaturdayMotivation
+18:09:25.292 [main] INFO  com.twitterapi.base.BaseLoader - ================================================================
+18:09:25.292 [main] INFO  com.twitterapi.base.BaseLoader - Now Executing :com.twitterapi.base.BaseLoader
+18:09:25.293 [main] INFO  com.twitterapi.base.BaseLoader - We are not executing delete functionality
+18:09:25.294 [main] INFO  com.twitterapi.base.BaseLoader - ================================================================
+18:09:25.294 [main] INFO  com.twitterapi.base.BaseLoader - Now Executing :com.twitterapi.base.BaseLoader
+18:09:26.647 [main] INFO  com.twitterapi.base.BaseLoader - Message: Hello Shubham! We are running this using Maven
+18:09:26.648 [main] INFO  com.twitterapi.base.BaseLoader - ================================================================
+18:09:26.649 [main] INFO  com.twitterapi.base.BaseLoader - Now Executing :com.twitterapi.base.BaseLoader
+18:09:28.001 [main] INFO  com.twitterapi.base.BaseLoader - You are following 7 people
+18:09:28.002 [main] INFO  com.twitterapi.base.BaseLoader - 1: Harbhajan Turbanator
+18:09:28.002 [main] INFO  com.twitterapi.base.BaseLoader - 2: Virender Sehwag
+18:09:28.002 [main] INFO  com.twitterapi.base.BaseLoader - 3: Ashwin Ravichandran
+18:09:28.002 [main] INFO  com.twitterapi.base.BaseLoader - 4: Rohit Sharma
+18:09:28.002 [main] INFO  com.twitterapi.base.BaseLoader - 5: YouTube
+18:09:28.002 [main] INFO  com.twitterapi.base.BaseLoader - 6: Google
+18:09:28.002 [main] INFO  com.twitterapi.base.BaseLoader - 7: Ratan N. Tata
+18:22:46.827 [main] INFO  com.twitterapi.base.BaseLoader - ================================================================
+18:22:46.830 [main] INFO  com.twitterapi.base.BaseLoader - Now Executing :com.twitterapi.base.BaseLoader
+18:23:07.341 [main] INFO  com.twitterapi.base.BaseLoader - ================================================================
+18:23:07.345 [main] INFO  com.twitterapi.base.BaseLoader - Now Executing :com.twitterapi.base.BaseLoader
+18:24:36.621 [main] INFO  com.twitterapi.base.BaseLoader - ================================================================
+18:24:36.624 [main] INFO  com.twitterapi.base.BaseLoader - Now Executing :com.twitterapi.base.BaseLoader
+18:27:01.984 [main] INFO  com.twitterapi.base.BaseLoader - ================================================================
+18:27:01.988 [main] INFO  com.twitterapi.base.BaseLoader - Now Executing :com.twitterapi.base.BaseLoader
+18:27:52.798 [main] INFO  com.twitterapi.base.BaseLoader - ================================================================
+18:27:52.801 [main] INFO  com.twitterapi.base.BaseLoader - Now Executing :com.twitterapi.base.BaseLoader
+18:31:28.843 [main] INFO  com.twitterapi.base.BaseLoader - ================================================================
+18:31:28.847 [main] INFO  com.twitterapi.base.BaseLoader - Now Executing :com.twitterapi.base.BaseLoader
+18:33:24.227 [main] INFO  com.twitterapi.base.BaseLoader - ================================================================
+18:33:24.231 [main] INFO  com.twitterapi.base.BaseLoader - Now Executing :com.twitterapi.base.BaseLoader
+18:34:02.610 [main] INFO  com.twitterapi.base.BaseLoader - ================================================================
+18:34:02.614 [main] INFO  com.twitterapi.base.BaseLoader - Now Executing :com.twitterapi.base.BaseLoader
+18:47:56.639 [main] INFO  com.twitterapi.base.BaseLoader - ================================================================
+18:47:56.642 [main] INFO  com.twitterapi.base.BaseLoader - Now Executing :com.twitterapi.base.BaseLoader
+18:48:00.030 [main] INFO  com.twitterapi.base.BaseLoader - ================================================================
+18:48:00.030 [main] INFO  com.twitterapi.base.BaseLoader - Now Executing :com.twitterapi.base.BaseLoader
+18:49:17.024 [main] INFO  com.twitterapi.base.BaseLoader - ================================================================
+18:49:17.027 [main] INFO  com.twitterapi.base.BaseLoader - Now Executing :com.twitterapi.base.BaseLoader
+18:49:20.626 [main] INFO  com.twitterapi.base.BaseLoader - ================================================================
+18:49:20.626 [main] INFO  com.twitterapi.base.BaseLoader - Now Executing :com.twitterapi.base.BaseLoader
+18:51:23.018 [main] INFO  com.twitterapi.base.BaseLoader - ================================================================
+18:51:23.022 [main] INFO  com.twitterapi.base.BaseLoader - Now Executing :com.twitterapi.base.BaseLoader
+18:51:38.564 [main] INFO  com.twitterapi.base.BaseLoader - ================================================================
+18:51:38.568 [main] INFO  com.twitterapi.base.BaseLoader - Now Executing :com.twitterapi.base.BaseLoader
+18:51:41.922 [main] INFO  com.twitterapi.base.BaseLoader - ================================================================
+18:51:41.922 [main] INFO  com.twitterapi.base.BaseLoader - Now Executing :com.twitterapi.base.BaseLoader
+18:57:15.070 [main] INFO  com.twitterapi.base.BaseLoader - ================================================================
+18:57:15.073 [main] INFO  com.twitterapi.base.BaseLoader - Now Executing :com.twitterapi.base.BaseLoader
+18:57:18.419 [main] INFO  com.twitterapi.base.BaseLoader - ================================================================
+18:57:18.419 [main] INFO  com.twitterapi.base.BaseLoader - Now Executing :com.twitterapi.base.BaseLoader
+23:39:37.021 [main] INFO  com.twitterapi.base.BaseLoader - ================================================================
+23:39:37.028 [main] INFO  com.twitterapi.base.BaseLoader - Now Executing :com.twitterapi.base.BaseLoader
+23:49:46.896 [main] INFO  com.twitterapi.base.BaseLoader - ================================================================
+23:49:46.903 [main] INFO  com.twitterapi.base.BaseLoader - Now Executing :com.twitterapi.base.BaseLoader
+00:02:47.553 [main] INFO  com.twitterapi.base.BaseLoader - ================================================================
+00:02:47.559 [main] INFO  com.twitterapi.base.BaseLoader - Now Executing :com.twitterapi.base.BaseLoader
+01:29:35.623 [main] INFO  com.twitterapi.base.BaseLoader - ================================================================
+01:29:35.635 [main] INFO  com.twitterapi.base.BaseLoader - Now Executing :com.twitterapi.base.BaseLoader
+01:30:57.947 [main] INFO  com.twitterapi.base.BaseLoader - ================================================================
+01:30:57.951 [main] INFO  com.twitterapi.base.BaseLoader - Now Executing :com.twitterapi.base.BaseLoader
+01:31:01.817 [main] INFO  com.twitterapi.base.BaseLoader - ================================================================
+01:31:01.817 [main] INFO  com.twitterapi.base.BaseLoader - Now Executing :com.twitterapi.base.BaseLoader
+01:32:42.478 [main] INFO  com.twitterapi.base.BaseLoader - ================================================================
+01:32:42.482 [main] INFO  com.twitterapi.base.BaseLoader - Now Executing :com.twitterapi.base.BaseLoader
+01:32:46.403 [main] INFO  com.twitterapi.base.BaseLoader - Created this tweet: This is an automated tweet, Created at 32th minute.
+01:32:46.407 [main] INFO  com.twitterapi.base.BaseLoader - ================================================================
+01:32:46.407 [main] INFO  com.twitterapi.base.BaseLoader - Now Executing :com.twitterapi.base.BaseLoader
+01:32:48.038 [main] INFO  com.twitterapi.base.BaseLoader - Here are the latest 5 tweets.
+01:32:48.047 [main] INFO  com.twitterapi.base.BaseLoader - LatestTweet 1:This is an automated tweet, Created at 32th minute.
+01:32:48.048 [main] INFO  com.twitterapi.base.BaseLoader - LatestTweet 2:Ready for something new? You’ve come to the right place. Tune in on 10/9. #madebygoogle https://t.co/jBdLYBAhry
+01:32:48.048 [main] INFO  com.twitterapi.base.BaseLoader - LatestTweet 3:Aajo aajo bhut time ho gya.. waiting for the best show to start again brother👌..@KapilSharmaK9 https://t.co/pu8xlzmDvL
+01:32:48.048 [main] INFO  com.twitterapi.base.BaseLoader - LatestTweet 4:This is an automated tweet, Created at 9th minute.
+01:32:48.049 [main] INFO  com.twitterapi.base.BaseLoader - LatestTweet 5:This is an automated tweet, Created at 8th minute.
+01:32:48.054 [main] INFO  com.twitterapi.base.BaseLoader - ================================================================
+01:32:48.054 [main] INFO  com.twitterapi.base.BaseLoader - Now Executing :com.twitterapi.base.BaseLoader
+01:32:49.328 [main] INFO  com.twitterapi.base.BaseLoader - Re-Tweeted this tweet: null
+01:32:49.330 [main] INFO  com.twitterapi.base.BaseLoader - ================================================================
+01:32:49.330 [main] INFO  com.twitterapi.base.BaseLoader - Now Executing :com.twitterapi.base.BaseLoader
+01:32:50.582 [main] INFO  com.twitterapi.base.BaseLoader - Here are the 50 tweets by location
+01:32:50.582 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 1 by location: #MUNNEW
+01:32:50.582 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 2 by location: United
+01:32:50.582 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 3 by location: #SalmanGovinda

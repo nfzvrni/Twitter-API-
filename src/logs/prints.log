@@ -1,0 +1,76 @@
+01:32:50.583 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 4 by location: Jose
+01:32:50.588 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 5 by location: #NoSONYESPNWhyTataSKY
+01:32:50.588 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 6 by location: Mata
+01:32:50.588 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 7 by location: Martial
+01:32:50.588 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 8 by location: Man Utd
+01:32:50.588 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 9 by location: #DancePlus4
+01:32:50.589 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 10 by location: Pogba
+01:32:50.589 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 11 by location: #WeekendKaVaar
+01:32:50.589 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 12 by location: Amarinder Singh
+01:32:50.589 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 13 by location: Chetan Bhagat
+01:32:50.589 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 14 by location: Yes Bank
+01:32:50.589 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 15 by location: INS Satpura
+01:32:50.589 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 16 by location: S-400
+01:32:50.589 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 17 by location: विधानसभा चुनाव
+01:32:50.590 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 18 by location: #1MonthForSarkarSaravedi
+01:32:50.590 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 19 by location: #CHEGOA
+01:32:50.590 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 20 by location: #VikasBahl
+01:32:50.590 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 21 by location: #ElleBeautyAwards
+01:32:50.590 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 22 by location: #Banksy
+01:32:50.590 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 23 by location: #ABPOpinionPoll
+01:32:50.590 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 24 by location: #notarulingworldwide
+01:32:50.590 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 25 by location: #8YearsOfMaheshKHALEJA
+01:32:50.590 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 26 by location: #SPA2018
+01:32:50.590 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 27 by location: #AssemblyElection2018
+01:32:50.591 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 28 by location: #ABVP
+01:32:50.591 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 29 by location: #IndiaSkills2018
+01:32:50.591 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 30 by location: #MeToo
+01:32:50.591 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 31 by location: #INDvWI
+01:32:50.591 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 32 by location: #SaturdayMotivation
+01:32:50.591 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 33 by location: #Andhadhun
+01:32:50.591 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 34 by location: #HTLS2018
+01:32:50.591 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 35 by location: #KoffeeWithKaran
+01:32:50.591 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 36 by location: #WWESSD
+01:32:50.591 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 37 by location: #96ThanksGivingMeet
+01:32:50.591 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 38 by location: #WorldSmileDay
+01:32:50.592 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 39 by location: #AdangamaruAudioToday
+01:32:50.592 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 40 by location: #AishwaryaRaiBachchan
+01:32:50.592 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 41 by location: #putininindia
+01:32:50.592 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 42 by location: #6DaysToGoforNET
+01:32:50.592 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 43 by location: #DemandForSonyPIXOnTataSky
+01:32:50.592 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 44 by location: #IISF2018
+01:32:50.592 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 45 by location: #RatsasanThrillerHit
+01:32:50.592 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 46 by location: #SuperDeluxe
+01:32:50.592 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 47 by location: #RangaMotionPoster
+01:32:50.593 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 48 by location: #TTVDhinakaran
+01:32:50.593 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 49 by location: #MatchboxInvitesForAndhadhun
+01:32:50.593 [main] INFO  com.twitterapi.base.BaseLoader - Trending topic 50 by location: #REDALERT
+01:32:50.595 [main] INFO  com.twitterapi.base.BaseLoader - ================================================================
+01:32:50.595 [main] INFO  com.twitterapi.base.BaseLoader - Now Executing :com.twitterapi.base.BaseLoader
+01:32:50.597 [main] INFO  com.twitterapi.base.BaseLoader - ================================================================
+01:32:50.598 [main] INFO  com.twitterapi.base.BaseLoader - Now Executing :com.twitterapi.base.BaseLoader
+01:32:51.965 [main] INFO  com.twitterapi.base.BaseLoader - Message: Hello Shubham! We are running this using Maven
+01:32:51.966 [main] INFO  com.twitterapi.base.BaseLoader - ================================================================
+01:32:51.966 [main] INFO  com.twitterapi.base.BaseLoader - Now Executing :com.twitterapi.base.BaseLoader
+01:32:53.296 [main] INFO  com.twitterapi.base.BaseLoader - You are following 7 people
+01:32:53.296 [main] INFO  com.twitterapi.base.BaseLoader - 1: Harbhajan Turbanator
+01:32:53.296 [main] INFO  com.twitterapi.base.BaseLoader - 2: Virender Sehwag
+01:32:53.296 [main] INFO  com.twitterapi.base.BaseLoader - 3: Ashwin Ravichandran
+01:32:53.296 [main] INFO  com.twitterapi.base.BaseLoader - 4: Rohit Sharma
+01:32:53.296 [main] INFO  com.twitterapi.base.BaseLoader - 5: YouTube
+01:32:53.296 [main] INFO  com.twitterapi.base.BaseLoader - 6: Google
+01:32:53.296 [main] INFO  com.twitterapi.base.BaseLoader - 7: Ratan N. Tata
+01:38:35.199 [main] INFO  com.twitterapi.base.BaseLoader - ================================================================
+01:38:35.203 [main] INFO  com.twitterapi.base.BaseLoader - Now Executing :com.twitterapi.base.BaseLoader
+01:39:26.854 [main] INFO  com.twitterapi.base.BaseLoader - ================================================================
+01:39:26.858 [main] INFO  com.twitterapi.base.BaseLoader - Now Executing :com.twitterapi.base.BaseLoader
+01:39:55.359 [main] INFO  com.twitterapi.base.BaseLoader - ================================================================
+01:39:55.364 [main] INFO  com.twitterapi.base.BaseLoader - Now Executing :com.twitterapi.base.BaseLoader
+01:39:59.236 [main] INFO  com.twitterapi.base.BaseLoader - Here are the latest 5 tweets.
+01:39:59.248 [main] INFO  com.twitterapi.base.BaseLoader - LatestTweet 1:Ready for something new? You’ve come to the right place. Tune in on 10/9. #madebygoogle https://t.co/jBdLYBAhry
+01:39:59.248 [main] INFO  com.twitterapi.base.BaseLoader - LatestTweet 2:Aajo aajo bhut time ho gya.. waiting for the best show to start again brother👌..@KapilSharmaK9 https://t.co/pu8xlzmDvL
+01:39:59.249 [main] INFO  com.twitterapi.base.BaseLoader - LatestTweet 3:This is an automated tweet, Created at 9th minute.
+01:39:59.249 [main] INFO  com.twitterapi.base.BaseLoader - LatestTweet 4:This is an automated tweet, Created at 8th minute.
+01:39:59.249 [main] INFO  com.twitterapi.base.BaseLoader - LatestTweet 5:This is an automated tweet, Created at 4th minute.
+01:44:09.069 [main] INFO  com.twitterapi.base.BaseLoader - ================================================================
+01:44:09.074 [main] INFO  com.twitterapi.base.BaseLoader - Now Executing :com.twitterapi.base.BaseLoader
