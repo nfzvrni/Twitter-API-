@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="TwitterAPITest(failed)" verbose="0">
+    <classes>
+      <class name="com.twitterapi.functionality.FriendListTest">
+        <methods>
+          <include name="getFollowersList"/>
+          <include name="loadUrlAndAuthenticate"/>
+        </methods>
+      </class> <!-- com.twitterapi.functionality.FriendListTest -->
+      <class name="com.twitterapi.functionality.CreateTweetTest">
+        <methods>
+          <include name="loadUrlAndAuthenticate"/>
+          <include name="createTweet"/>
+        </methods>
+      </class> <!-- com.twitterapi.functionality.CreateTweetTest -->
+      <class name="com.twitterapi.functionality.ReTweetTest">
+        <methods>
+          <include name="loadUrlAndAuthenticate"/>
+          <include name="reTweet"/>
+        </methods>
+      </class> <!-- com.twitterapi.functionality.ReTweetTest -->
+      <class name="com.twitterapi.functionality.SendDirectMessageTest">
+        <methods>
+          <include name="loadUrlAndAuthenticate"/>
+          <include name="sendDirectMessage"/>
+        </methods>
+      </class> <!-- com.twitterapi.functionality.SendDirectMessageTest -->
+      <class name="com.twitterapi.functionality.TrendsByLocationTest">
+        <methods>
+          <include name="getTrendsByLoc"/>
+          <include name="loadUrlAndAuthenticate"/>
+        </methods>
+      </class> <!-- com.twitterapi.functionality.TrendsByLocationTest -->
+      <class name="com.twitterapi.functionality.LatestTweetsTest">
+        <methods>
+          <include name="getLatestTweets"/>
+          <include name="loadUrlAndAuthenticate"/>
+        </methods>
+      </class> <!-- com.twitterapi.functionality.LatestTweetsTest -->
+    </classes>
+  </test> <!-- TwitterAPITest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
