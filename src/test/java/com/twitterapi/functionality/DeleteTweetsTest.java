@@ -1,6 +1,7 @@
 package com.twitterapi.functionality;
 
 import static io.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.notNullValue;
 
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -11,41 +12,25 @@ import com.twitterapi.resources.IUserOperations;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 
-
-public class DeleteTweetsTest extends BaseLoader{
+public class DeleteTweetsTest extends BaseLoader {
 
 	@BeforeClass
 	public void loadUrlAndCredentials() {
 		init();
 	}
 
-	@Test(/*dependsOnMethods= {"SearchTweetsTest.searchTweets"}*/)
+	@Test(groups = {"regression"}, dependsOnGroups = {"searchTweets"})
 	public void deleteTweet() {
-
-		for(Long tweetIdtoDelete:idsToDelete) {
-
+		for (Long tweetId : tweetIdsToDelete) {
 			Response response = given().auth().oauth(consumerKey, consumerSecret, accessToken, secretToken)
-					.when().post(IUserOperations.deleteTweetById(tweetIdtoDelete))
-					.then().extract().response();
+					.when().post(IUserOperations.deleteTweetById(tweetId))
+					.then()
+					.assertThat().statusCode(200)
+					.body("text", notNullValue())
+					.extract().response();
 
 			JsonPath js = new JsonPath(response.asString());
-			/*System.out.println(js.prettify());*/
-			log.info("Deleting the tweet "+js.get("text"));
-			log.info("The tweet is deleted, [Truncated = "+js.get("truncated")+"]");
+			log.info("Deleted tweet id: " + tweetId + " | text: " + js.get("text"));
 		}
-
-
-	}
-
-	//@Test
-	public void followUser() {
-		Response response = given().auth().oauth(consumerKey, consumerSecret, accessToken, secretToken)
-				.when().post("friendships/create.json?user_id=92945681")
-				.then().extract().response();
-
-		JsonPath js = new JsonPath(response.asString());
-		System.out.println(js.prettify());
-		//System.out.println(js.get("name"));
-		
 	}
 }

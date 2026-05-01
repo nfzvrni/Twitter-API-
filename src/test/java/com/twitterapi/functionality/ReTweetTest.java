@@ -1,6 +1,7 @@
 package com.twitterapi.functionality;
 
 import static io.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.notNullValue;
 
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -11,25 +12,29 @@ import com.twitterapi.resources.IUserOperations;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 
-public class ReTweetTest extends BaseLoader{
-	
+public class ReTweetTest extends BaseLoader {
+
 	@BeforeClass
 	public void loadUrlAndAuthenticate() {
 		init();
 	}
-	
-	@Test
+
+	@Test(groups = {"smoke"})
 	public void reTweet() {
+		// Configure via -Dtwitter.retweetId=<id> or TWITTER_RETWEET_ID env var
+		String tweetId = System.getenv("TWITTER_RETWEET_ID");
+		if (tweetId == null || tweetId.isEmpty()) {
+			tweetId = System.getProperty("twitter.retweetId", "1048446776645181440");
+		}
+
 		Response response = given().auth().oauth(consumerKey, consumerSecret, accessToken, secretToken)
-				/*.queryParam("status", "This is my Updated tweet using Twitter API")*/
-				//1048446776645181440
-				.when().post(IUserOperations.reTweetById("1048446776645181440"))
-				.then().extract().response();
+				.when().post(IUserOperations.reTweetById(tweetId))
+				.then()
+				.assertThat().statusCode(200)
+				.body("text", notNullValue())
+				.extract().response();
 
 		JsonPath js = new JsonPath(response.asString());
-		/*System.out.println(js.prettify());*/
-		log.info("Re-Tweeted this tweet: "+js.get("text"));
-		//System.out.println(js.get("id"));
+		log.info("Re-Tweeted: " + js.get("text"));
 	}
-
 }

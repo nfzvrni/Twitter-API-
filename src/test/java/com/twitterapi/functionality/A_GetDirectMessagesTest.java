@@ -18,18 +18,16 @@ public class A_GetDirectMessagesTest extends BaseLoader {
 		init();
 	}
 
-	@Test
+	@Test(groups = {"regression", "getMessages"})
 	public void getDirectMessageList() {
-		Response response = given().auth().oauth(consumerKey, consumerSecret, accessToken, secretToken)	
-				//.queryParams("count", "50")
-				.when().get(DIRECT_MESSAGES_RESOURCE).then().extract().response();
+		Response response = given().auth().oauth(consumerKey, consumerSecret, accessToken, secretToken)
+				.when().get(DIRECT_MESSAGES_RESOURCE)
+				.then()
+				.assertThat().statusCode(200)
+				.extract().response();
 
 		JsonPath js = new JsonPath(response.asString());
-		System.out.println(js.prettify());		
 		IUtilities.getSequence(js, "events.message_create.message_data.text");
-		idsToDelete = js.get("events.id");
-
-
+		messageIdsToDelete = js.get("events.id");
 	}
-
 }
