@@ -2,7 +2,8 @@ package com.twitterapi.functionality;
 
 import static io.restassured.RestAssured.given;
 
-import org.testng.annotations.BeforeTest;
+import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import com.twitterapi.base.BaseLoader;
@@ -13,28 +14,24 @@ import io.restassured.response.Response;
 
 public class A_SearchTweetsTest extends BaseLoader {
 
-	@BeforeTest
+	@BeforeClass
 	public void loadUrlAndAuthenticate() {
 		init();
 	}
 
-	@Test
+	@Test(groups = {"regression", "searchTweets"})
 	public void searchTweets() {
-		Response response = given().auth().oauth(consumerKey, consumerSecret, accessToken, secretToken)				
+		Response response = given().auth().oauth(consumerKey, consumerSecret, accessToken, secretToken)
 				.queryParam("q", "This is an automated tweet, Created at")
 				.queryParam("count", "40")
-				/* .queryParam("q", "\"This is an automated tweet\"")*/.when().get(/*"search/tweets.json"*/searchTweetsByTimeLineResource)
+				.when().get(searchTweetsByTimeLineResource)
 				.then()
+				.assertThat().statusCode(200)
 				.extract().response();
 
 		JsonPath js = new JsonPath(response.asString());
-		System.out.println(js.prettify());
 		IUtilities.getSequence(js, "text");
-		idsToDelete =  js.get("id");
-
+		tweetIdsToDelete = js.get("id");
+		Assert.assertNotNull(tweetIdsToDelete, "Tweet ID list should not be null");
 	}
-
 }
-
-
-
